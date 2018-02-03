@@ -9,7 +9,7 @@
 		<main>
 			<section id="about">
 				<h2>About</h2>
-			<img id="mickey" src="Mickey.jpg">
+			<img id="mickey" src="/assets/img/Mickey.jpg">
 				<div class="text">
 					<p>
 						Since 2007, I've been a member of the technology industry, learning and working with websites, games, and computers.  With a career that started at <strong>Blizzard Entertainment</strong>, a premier developer and publisher of entertainment software, I began to learn and grow and discover my skills and talent.

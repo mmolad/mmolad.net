@@ -1,0 +1,544 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic,600italic,300italic,700italic|Roboto:400,100,300,500,700,100italic,300italic,400italic,500italic,700italic);
+
+
+* {
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Open Sans', Verdana, sans-serif;
+	color: #CCC;
+	background-color: #222;
+
+	position: relative;
+
+	overflow: auto;
+
+}
+h1,h2,h3,h4 {
+	font-family: 'Roboto', Verdana, sans-serif;
+}
+
+section {
+	/*min-height: calc(100vh - 2em);*/
+}
+
+strong {
+	color: #EEE;
+}
+
+.emoji {
+	font-style: normal;
+}
+
+section:first-of-type h2 {
+	margin-top: 0;
+}
+
+hr {
+	height: 0px;
+	margin: 1.5em 0;
+	border: 0;
+	border-top: 1px solid #EEE;
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+#mickey {
+	border-radius: 50%;
+	max-width: 8em;
+	float:right;
+	margin: 1em;
+}
+
+a {
+	color: #759ACC;
+	font-style: italic;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+}
+
+p > a:after,
+li > a:after {
+	content: "";
+	display: block;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	border-bottom:1px solid;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p {
+	margin-top: 0;
+}
+
+h1 {
+	color: rgba(71, 126, 199, 1.0);
+	font-size: 300%;
+	/*border-bottom:1px solid rgba(71, 126, 199, .25);*/
+	font-weight: 300;
+	margin: 42px 0 0 0;
+	margin: 2.65rem 0 0 0;
+}
+
+#sidebar h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+	font-size: 1.5rem;
+
+	display: none !important;
+}
+
+h1 > span {
+	font-size: 75%;
+	font-weight: 100;
+	color: rgba(250,128,114,1);
+}
+
+h1 >span:before {
+	font-size: 48px;
+	font-size:3rem;
+	content:" \203a  ";
+}
+
+h1 > a{
+	color: inherit !important;
+	font-style: inherit;
+}
+
+h2 {
+	color: rgba(250,128,114,1);
+	font-size: 200%;
+	margin: 1em 0 .25em 0;
+}
+
+h3 {
+	color: rgba(250,128,114,1);
+	border-bottom:1px solid rgba(250,128,114,.5);
+}
+
+h4 {
+	color: #EEE;
+	margin-bottom: .5em;
+}
+
+h4:before {
+	content: "";
+	border-left:.25em solid rgba(250,128,114,1);;
+	margin-right:.25em;
+}
+
+.page-content {
+	margin-left: 6em;
+}
+
+#sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 3em 1em 1em;
+	width: 6em;
+	height: 100%;
+
+/*	border-right:.1em solid #CCC;
+	box-shadow:0px 0px 3px rgba(0,0,0,.15);
+*/
+	background-color: rgba(255,255,255,.1);
+}
+
+#sidebar a {
+
+	color: rgba(250,128,114,1);
+}
+
+.contactlink {
+	margin-left:20px;
+}
+
+.contactlink:before {
+	vertical-align: top;
+	content: "";
+	width: 20px;
+	height: 20px;
+	margin-left: -20px;
+	display: inline-block;
+	line-height: 1em;
+}
+
+.contactlink#twitter:before {
+	background: url('/assets/img/twitter20px.png');
+}
+
+.contactlink#reddituser:before {
+	background: url('/assets/img/reddit20px.png');
+}
+
+
+
+main {
+	padding: 1em;
+	max-width: 60em;
+}
+
+header,
+footer {
+	overflow: auto;
+	padding: 0 1em;
+}
+
+
+
+.work {
+	width: 25%;
+	min-width: 10em;
+	float: right;
+	position: relative;
+	margin-left: 1em;
+}
+
+h2, h3, h4 {
+	clear: both;
+	-webkit-flex-basis: 100%;
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+}
+
+.description {
+	-webkit-box-ordinal-group: 3;
+	-webkit-order: 2;
+	    -ms-flex-order: 2;
+	        order: 2;
+}
+
+.workCategory {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.workItems {
+	clear: both;
+	min-width: calc(500px + 4em);
+}
+
+.workItems > li {
+	display: inline-block;
+	margin: 0px 2em 2em 0;
+	/*box-shadow:2px 2px 6px rgba(0,0,0,.5);*/
+}
+
+.workItems > li:nth-child(even) {
+	margin-right: 0;
+}
+.workItems > li > a {
+	display: block;
+	border:1px solid #333;
+	height: 350px;
+	width: 250px;
+	position: relative;
+	overflow: hidden;
+}
+
+.workItems > li > a.doubleWide {
+	width: calc(500px + 2em);
+}
+
+.fancybox:after {
+	content: none;
+}
+
+.workItems .label,
+.workItems .sublabel
+ {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 2em;
+	background:rgba(0,0,0,.5);
+	color: #FFF;
+	line-height: 1.5em;
+	padding: .25em;
+	text-shadow:1px 1px 0px rgba(0,0,0,.75);
+	font-style: normal;
+	opacity: .85;
+	filter: alpha(opacity=85);
+}
+
+.workItems .sublabel {
+	background: none !important;
+	left: auto;
+	/*opacity: .75;*/
+	font-size: 75%;
+}
+
+.workItems li:hover .sublabel,
+.workItems li:hover .label {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background:rgba(0,0,0,.75);
+}
+
+
+li#overwatch > a {
+}
+
+li#overwatch > a:after {
+}
+
+.workItems > li > a:before {
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: -1em;
+	position: absolute;
+	background-size: cover;
+	background-position: 0 0;
+	-webkit-transition: all .15s ease;
+	        transition: all .15s ease;
+}
+
+.workItems > li:hover > a:before {
+	-webkit-transform: translateY(-.5em);
+	    -ms-transform: translateY(-.5em);
+	        transform: translateY(-.5em);
+}
+
+.workItems .additional {
+	display: none;
+}
+
+
+li#overwatch > a:before {
+	background-image:url('/assets/portfolio/ow6.png');
+}
+li#pm > a:before {
+	background-image:url('/assets/portfolio/psmed3-full.png');
+}
+
+
+li#nio > a:before {
+	background-image:url('/assets/portfolio/nio-1.jpg');
+}
+
+li#be > a:before {
+	background-image:url('/assets/portfolio/befb1-full.png');
+}
+
+li#hs > a:before {
+	background-image:url('/assets/portfolio/befb5-full.png');
+}
+
+/* Fancybox */
+.fancybox-title.fancybox-title-outside-wrap {
+    font-size: 2em;
+    /* background: rgba(0,0,0,.25); */
+    line-height: 1em;
+    padding: .25em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.work a:after {
+	content: none;
+}
+
+.work a {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 1em;
+}
+.work #pm {
+	background-image: url('/assets/img/psmed-white.svg');
+}
+
+
+.work #nio {
+	background-image: url('/assets/img/nio-logo.png');
+}
+
+.work #be {
+	background-image: url('/assets/img/blizzard-logo.png');
+}
+
+.work #bn {
+	background-image: url('/assets/img/bnet-logo.png');
+}
+
+.work #ow {
+	background-image: url('/assets/img/ow.png');
+}
+
+#sidebar nav .active {
+	font-style: normal;
+	color: #AAA;
+}
+
+#sidebar nav .active:before {
+	content: '❭';
+	left: -.5em;
+	position: absolute;
+	vertical-align: top;
+}
+
+#sidebar nav .active:after {
+	display: none;
+}
+
+.mobile-redundant {
+	display: none;
+}
+
+#contact-page h2 {
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.workCategory {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.description {
+		-webkit-box-ordinal-group: 0;
+		-webkit-order: -1;
+		    -ms-flex-order: -1;
+		        order: -1;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	#sidebar {
+		width: 100%;
+		height: 4em;
+		background-color: #383838;
+		padding: 0 1em;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		z-index: 100;
+	}
+	.page-content {
+		margin-left: 0;
+	}
+
+	header {
+		margin-top: 4em;
+	}
+
+	header h1 {
+		margin-top: 1rem;
+	}
+
+	#sidebar h1,
+	#sidebar nav,
+	#sidebar ul,
+	#sidebar li 
+	{
+		display: inline-block;
+	}
+
+	#sidebar h1,
+	#sidebar li 
+	{
+		margin-right: 1em;
+	}
+
+	#sidebar li:last-child {
+		margin-right: 0;
+	}
+
+	.workItems {
+		min-width: 0;
+		width: 100%;
+		position: relative;
+	}
+
+	.workItems > li {
+		width: 100%;
+		margin: 0 auto 2em 0;
+	}
+
+	.workItems > li > a.doubleWide {
+		width: 100%;
+	}
+
+	header h1 > span {
+		display: none;
+	}
+
+	#sidebar nav .active:before {
+		content: none;
+	}
+
+	#sidebar nav .active:after {
+		display: block;
+		border-bottom-width: 2px;
+		bottom: -1px;
+	}
+
+	.mobile-redundant {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	header h1 {
+		font-size: 200%;
+	}
+
+	#sidebar h1 {
+		display: none;
+	}
+
+	body {
+		min-width: 320px;
+	}
+
+	#sidebar {
+		min-width: 320px;
+	}
+
+	#mickey {
+		margin: .5em;
+	}
+}
