@@ -1,9 +1,9 @@
 ---
 layout: default
-pageheader: Work History
+title: Work History
 ---
 <section id="work">
-	<h2>Work History</h2>
+	<h2>Work <span class="unemphasis">History</span></h2>
 	<p>I've worked on various web features throughout the years, mostly internal items while working at <strong>Blizzard Entertainment</strong>.  Learning to code for the web on platforms such as MediaWiki, SharePoint, and Drupal, I began to specialize in working with systems with limited control over the structure of the page.  While I've done various full-stack web development, my heart lies in CSS and wrestling the web to do what you and your designers had in mind. </p>
 	<p>My playground is <strong>Reddit</strong>, where subreddit creators can control the appearance of their subreddit, but have no ability to script or create complex HTML content. With clever solutions and a firm grasp of CSS, I've helped various subreddit creators and moderators get their site looking exactly as they want.  You can find me on the <a href="https://reddit.com/r/csshelp">/r/csshelp</a> subreddit, helping others with their work, and on my own subreddit, <a href="https://reddit.com/r/overwatch">/r/Overwatch</a>.</p>
 	<h3>Full Time Work</h3>
@@ -20,8 +20,8 @@ pageheader: Work History
 					</li>
 				</ul>
 			</div>
-			<p>As Business Technology Manager at <a href="http://ps-med.com">PerSys Medical</a>, I am responsible for all information technology and systems administration. My work also branches out to digital marketing, with a focus on mantaining our web presence.</p>
-			<p>Since coming on board, I've migrating our email systems to a Microsft Exchange platform, deployed Google Apps for Work for real-time global collaboration, and introduced video conferencing systems to unite our 3 regional headquarters.</p>
+			<p>As Business Technology Manager at <a href="http://ps-med.com">PerSys Medical</a>, I was responsible for all information technology and systems administration. My work also branched out to digital marketing, with a personal responsibility on mantaining our web presence.</p>
+			<p>Since coming on board, I migrated our email systems to a Microsft Exchange platform, deployed Google Apps for Work for real-time global collaboration, and introduced video conferencing systems to unite our three regional headquarters.</p>
 			<p>I performed a complete redesign and rebuild of our <a href="http://ps-med.com">corporate website</a>, and helped launch the <a href="http://nio-pm.com">NIO</a>, the new best-in-class intraosseous device. All of our work centered around a complete rebranding of our business under the PerSys Medical banner, with a unified brand strategy and brand guidelines.</p>
 		</li>
 		<li>

@@ -1,9 +1,9 @@
 ---
 layout: default
-pageheader: About
+title: About
 ---
 <section id="about">
-	<h2>About</h2>
+	<h2>About <span class="unemphasis">Mickey Molad</span></h2>
 	<img id="mickey" src="/assets/img/Mickey.jpg">
 	<div class="text">
 		<p>
@@ -14,10 +14,15 @@ pageheader: About
 		</p>
 		<hr>
 		<p>
-			After 6 years at Blizzard Entertainment (with a <a href="http://blizzard.com/company/about/service-awards.html">cool sword</a> to show for it), I moved back to my hometown in Houston, Texas to work for <strong>PerSys Medical</strong>, a medical device company that helps save lives around the world.
+			After 6 years at Blizzard Entertainment (with a <a href="http://blizzard.com/company/about/service-awards.html">cool sword</a> to show for it), I moved back to my hometown in Houston, Texas to work for <strong>PerSys Medical</strong>, a medical device company that helps save lives around the world. As <strong>Business Technology Manager</strong>, I was in charge of global IT planning as well as regional issues and deployment, I helped identify growing pains for a small business in a booming industry. While there, I managed a small team, revamped our marketing tools and strategy, and modernized aging technology and practices.
 		</p>
+		<hr>
 		<p>
-			As <strong>Business Technology Manager</strong>, I am responsible for most technical issues within the company, including digital marketing, website creation and administration, as well as  computer services and telephony systems. In my free time I continue to play games and be a part of the video game community.
+			I later joined <strong>cPanel</strong> as a <strong>Community Manager</strong>, part of their core Product Development team. Our team managed feedback for new and existing features, revamped our yearly company conference, and built new pipelines for internal feedback and employee discussion.
+		</p>
+		<hr>
+		<p>
+			As a current freelance community specialist, I'm working on a few web development projects, helping mantain the communities I'm a part of, and still playing the latest games.
 		</p>
 	</div>
 </section>
