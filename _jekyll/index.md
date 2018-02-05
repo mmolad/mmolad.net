@@ -1,5 +1,6 @@
 ---
 layout: default
+pageheader: About
 ---
 <section id="about">
 	<h2>About</h2>
