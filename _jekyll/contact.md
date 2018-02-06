@@ -1,4 +1,5 @@
 ---
-layout: default
+layout: nofooter
+title: Contact Me
 ---
-<!-- The footer covers this. -->
+{% include contact.html %}

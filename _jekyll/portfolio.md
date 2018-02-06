@@ -1,9 +1,9 @@
 ---
 layout: default
-pageheader: Portfolio Sample
+title: Portfolio Sample
 ---
 <section>
-	<h2>Portfolio Sample</h2>
+	<h2>Portfolio <span class="unemphasis">Sample</span></h2>
 	<p class="statement">See a sample of my design work. For mock up requests or design documents, please <a href="/contact">contact me</a>.</p>
 	<h3>/r/Overwatch</h3>
 	<div class="workCategory">
