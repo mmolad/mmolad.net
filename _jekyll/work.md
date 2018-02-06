@@ -9,6 +9,20 @@ title: Work History
 	<h3>Full Time Work</h3>
 	<ul>
 		<li>
+			<h4>cPanel, Inc.</h4>
+			<div class="work">
+				<ul>
+					<li>
+						<a id="cpanel" href="http://cpanel.com"></a>
+					</li>
+				</ul>
+			</div>
+			<p>As <strong>Community Manager</strong> at <a href="http://ps-med.com">cPanel, Inc.</a>, I was the public face of our Product Development team and our core engineering efforts. I worked closely with developers to help ensure two-way communication and feedback between our team and our users. I identified common contact generators, legitimate pain points for users, and opportunities for new features and requests.
+				<p>In 2017, cPanel rebooted its yearly conference, built it entirely from scratch, and more than doubled registration, overturning a yearly trend. As Community Manaer, I designed and built our conference website, integrated our registration system, and deployed our mobile application. </p>
+				<p>With a wide breadth of responsibilities, I focused on better connecting our users with our developers, and our developers with senior leadership and the community-at-large. I started a monthly newsletter for keeping up with our product Scrum teams, held 1-on-1 feedback session with employees, and integrated analytical data with our existing feedback collection systems.</p>
+</p>
+		</li>
+		<li>
 			<h4>PerSys Medical</h4>
 			<div class="work">
 				<ul>
@@ -20,7 +34,7 @@ title: Work History
 					</li>
 				</ul>
 			</div>
-			<p>As Business Technology Manager at <a href="http://ps-med.com">PerSys Medical</a>, I was responsible for all information technology and systems administration. My work also branched out to digital marketing, with a personal responsibility on mantaining our web presence.</p>
+			<p>As <strong>Business Technology Manager</strong> at <a href="http://ps-med.com">PerSys Medical</a>, I was responsible for all information technology and systems administration. My work also branched out to digital marketing, with a personal responsibility on mantaining our web presence.</p>
 			<p>Since coming on board, I migrated our email systems to a Microsft Exchange platform, deployed Google Apps for Work for real-time global collaboration, and introduced video conferencing systems to unite our three regional headquarters.</p>
 			<p>I performed a complete redesign and rebuild of our <a href="http://ps-med.com">corporate website</a>, and helped launch the <a href="http://nio-pm.com">NIO</a>, the new best-in-class intraosseous device. All of our work centered around a complete rebranding of our business under the PerSys Medical banner, with a unified brand strategy and brand guidelines.</p>
 		</li>
@@ -33,7 +47,7 @@ title: Work History
 				</ul>
 			</div>
 		</li>
-		<p>As an Internal Information Specialist at <a href="http://blizzard.com">Blizzard Entertainment</a>, I had a broad range of duties and responsibilities within the Customer Service department.  With an evolving role within Customer Service, my team was the center of knowledge management and policy guidelines for the United States, with global teams following in suit. </p>
+		<p>As an <strong>Internal Information Specialist</strong> at <a href="http://blizzard.com">Blizzard Entertainment</a>, I had a broad range of duties and responsibilities within the Customer Service department.  With an evolving role within Customer Service, my team was the center of knowledge management and policy guidelines for the United States, with global teams following in suit. </p>
 		<p>Starting as a Game Master, I shortly moved to assist with any gameplay reports submitted by players to our customer service team. As our team's responsibilities evolved and grew, I become the focal point for customer service generated reports and become a liaison for any intersection between development and customer service issues.</p>
 		<p>With an ever-growing user-base and additional titles that fell under our team's responsibility, I helped deploy multiple learning solutions and content management systems for our customer service agents. Our team migrated from wiki, to SharePoint, Drupal, and other proprietary systems. As our focus moved towards helping educate on self-service solutions and contact prevention, I worked on our <a href="http://blizzard.com/support/">knowledge center</a> and social media sites, posting content as needed and representing customer service as a "blue poster".</p>
 		<p>I was fortunate to have the opportunity to assist our Web Team during <a href="http://blizzcon.com">BlizzCon</a> preparations, earning a temporary assignment in Irvine, California. I served as producer on several projects including the reveal website for Mists of Pandaria, the newest expansion for World of Warcraft. </p>
@@ -50,10 +64,10 @@ title: Work History
 				</ul>
 			</div>
 			<p>
-				The <a href="https://reddit.com/r/overwatch">Overwatch subreddit</a> on <a href="https://reddit.com">reddit.com</a> is a community forum for discussion about Overwatch, the latest online title from Blizzard Entertainment. With over 490,000 subscribers and 100 million monthly pageviews, it is the undisputed #1 active community for the game, and one of the largest gaming communities on the internet.  I was selected to design and manage the subreddit's appearance and technical functionality, and help manage ongoing efforts such as event coordination, policy review, and moderation as needed.
+				The <a href="https://reddit.com/r/overwatch">Overwatch subreddit</a> on <a href="https://reddit.com">reddit.com</a> is a community forum for discussion about Overwatch, the latest online title from Blizzard Entertainment. With over 1,100,000 subscribers and 100 million monthly pageviews, it is the undisputed #1 active community for the game, and one of the largest gaming communities on the internet.  I was selected to design and manage the subreddit's appearance and technical functionality, and help manage ongoing efforts such as esports coverage, press events, policy review, and day-to-day moderation as needed.
 			</p>
 		</li>
 	</ul>
 	<h3>Resume</h3>
-	<p>For a formal resume, please <a href="/contact/">contact me directly</a> or see my <a href="https://linkedin.com/in/mickeymolad">LinkedIn Profile.</a></p>
+	<p>For a formal resume, please <a href="/contact/">contact me directly</a> or see my <a class="contactlink linkedin" href="https://linkedin.com/in/mickeymolad">LinkedIn Profile.</a></p>
 </section>
